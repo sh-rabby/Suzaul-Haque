@@ -14,7 +14,7 @@ const MyPortfolio = () => {
 
                     <div className="py-10 gap-12 pb-20 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1">
                         <div className="bg-gradient-to-r from-[#e3e9ed] to-[#fcfcfd] rounded-xl shadow-lg py-6 px-6">
-                            <img className="rounded-xl hover:transition hover:scale-105" src="/public/portfolio-01.jpg" alt="" />
+                            <img className="rounded-xl hover:transition hover:scale-105" src="/portfolio-01.jpg" alt="" />
                             <div className="flex justify-between py-5">
                                 <p className="text-[#fc2164] font-poppins font-medium text-sm ">E-Commerce Website</p>
                             </div>
@@ -22,7 +22,7 @@ const MyPortfolio = () => {
                         </div>
 
                         <div className="bg-gradient-to-r from-[#e3e9ed] to-[#fcfcfd] rounded-xl shadow-lg py-6 px-6">
-                            <img className="rounded-xl hover:transition hover:scale-105" src="/public/portfolio-02.jpg" alt="" />
+                            <img className="rounded-xl hover:transition hover:scale-105" src="/portfolio-02.jpg" alt="" />
                             <div className="flex justify-between py-5">
                                 <p className="text-[#fc2164] font-medium font-poppins text-sm ">LMS Website </p>
                             </div>
@@ -30,7 +30,7 @@ const MyPortfolio = () => {
                         </div>
 
                         <div className="bg-gradient-to-r from-[#e3e9ed] to-[#fcfcfd] rounded-xl shadow-lg py-6 px-6">
-                            <img className="rounded-xl hover:transition hover:scale-105" src="/public/portfolio-03.jpg" alt="" />
+                            <img className="rounded-xl hover:transition hover:scale-105" src="/portfolio-03.jpg" alt="" />
                             <div className="flex justify-between py-5">
                                 <p className="text-[#fc2164] font-medium font-poppins text-sm ">Traveling Website </p>
                             </div>
@@ -38,7 +38,7 @@ const MyPortfolio = () => {
                         </div>
 
                         <div className="bg-gradient-to-r from-[#e3e9ed] to-[#fcfcfd] rounded-xl shadow-lg py-6 px-6">
-                            <img className="rounded-xl hover:transition hover:scale-105" src="/public/portfolio-04.jpg" alt="" />
+                            <img className="rounded-xl hover:transition hover:scale-105" src="/portfolio-04.jpg" alt="" />
                             <div className="flex justify-between py-5">
                                 <p className="text-[#fc2164] font-medium font-poppins text-sm ">Event Management Website</p>
                             </div>
@@ -46,7 +46,7 @@ const MyPortfolio = () => {
                         </div>
 
                         <div className="bg-gradient-to-r from-[#e3e9ed] to-[#fcfcfd] rounded-xl shadow-lg py-6 px-6">
-                            <img className="rounded-xl hover:transition hover:scale-105" src="/public/portfolio-05.jpg" alt="" />
+                            <img className="rounded-xl hover:transition hover:scale-105" src="/portfolio-05.jpg" alt="" />
                             <div className="flex justify-between py-5">
                                 <p className="text-[#fc2164] font-medium font-poppins text-sm ">Blog Weisite</p>
                             </div>
@@ -54,7 +54,7 @@ const MyPortfolio = () => {
                         </div>
 
                         <div className="bg-gradient-to-r from-[#e3e9ed] to-[#fcfcfd] rounded-xl shadow-lg py-6 px-6">
-                            <img className="rounded-xl hover:transition hover:scale-105" src="/public/portfolio-06.jpg" alt="" />
+                            <img className="rounded-xl hover:transition hover:scale-105" src="/portfolio-06.jpg" alt="" />
                             <div className="flex justify-between py-5">
                                 <p className="text-[#fc2164] font-medium font-poppins text-sm ">News Website</p>
                             </div>

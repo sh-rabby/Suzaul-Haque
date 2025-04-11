@@ -12,7 +12,7 @@ const Hero = () => {
         <div>
             <div className="hero w-11/12 md:w-10/12 lg:w-8/12 mx-auto py-16">
                 <div className="hero-content flex-col lg:flex-row-reverse  border-b border-gray-200 pb-10">
-                    <img src="/public/banner-03.png"
+                    <img src="/banner-03.png"
                         className="bg-gradient-to-r from-[#e3e9ed] to-[#fcfcfd] max-w-sm rounded-lg shadow-lg w-full py-6 px-6 hover:transition hover:scale-105" />
                     <div className="">
                         <p className="font-poppins text-[16px] py-4 uppercase text-[#3c3e41]">Welcome To Web Design and Development

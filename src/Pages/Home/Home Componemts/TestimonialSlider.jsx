@@ -8,7 +8,7 @@ import { FaStar } from "react-icons/fa";
 const testimonials = [
     {
         name: "Sarah Jennings",
-        image: "/public/Sarah Jennings.jpg",
+        image: "/Sarah Jennings.jpg",
         role: "Marketing Manager, GreenGlow Agency",
         message: "Working with Suzaul was a fantastic experience. He delivered a sleek, responsive website that matched our brand perfectly. Communication was smooth, deadlines were met, and the final result exceeded our expectations.",
         project: "Corporate Website Redesign",
@@ -17,7 +17,7 @@ const testimonials = [
     },
     {
         name: "Sheikh Sakibul Hasan",
-        image: "/public/Sheikh Sakibul Hasan.jpg",
+        image: "/Sheikh Sakibul Hasan.jpg",
         role: "Founder, LocalCart BD",
         message: "Suzaul truly understood our vision and brought it to life. The site works flawlessly across devices and has boosted our online presence. He’s professional, creative, and always quick to respond.",
         project: "E-commerce Store Development",
@@ -26,7 +26,7 @@ const testimonials = [
     },
     {
         name: "Clara Müller",
-        image: "/public/Clara Müller.jpg",
+        image: "/Clara Müller.jpg",
         role: "Creative Director, StudioLoom",
         message: "Suzaul has an eye for detail and a great sense of design. He turned our ideas into a beautiful, functional site that our clients love. I highly recommend him for any web-related project.",
         project: "Portfolio Website Design",

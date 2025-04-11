@@ -7,7 +7,7 @@ const AboutTop = () => {
         <div>
             <div className="hero w-11/12 md:w-10/12 lg:w-8/12 mx-auto py-16">
                 <div className="hero-content flex-col lg:flex-row-reverse  border-b border-gray-200 pb-10">
-                    <img src="/public/banner-03.jpg"
+                    <img src="/banner-03.jpg"
                         className="bg-gradient-to-r from-[#e3e9ed] to-[#fcfcfd] max-w-sm rounded-lg shadow-lg w-full py-6 px-6 hover:transition hover:scale-105" />
                     <div className="py-6">
                         <h1 className="text-4xl lg:text-5xl font-bold leading-relaxed lg:leading-relaxed py-4">Hi, I'm <span
