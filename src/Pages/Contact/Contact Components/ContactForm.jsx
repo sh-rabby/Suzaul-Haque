@@ -7,12 +7,12 @@ const ContactForm = () => {
                 <h1 className='font-poppins text-[#707376] text-md'>If you have any porject or need help. <span className='text-[#fc2164]'>Just Say Hello!</span> </h1>
             </div>
             <div>
-                <form className="py-6 space-y-4" onSubmit={(e) => e.preventDefault()}>
-                    <div className="flex flex-col md:flex-row gap-4">
+                <form className="py-6 space-y-4 " onSubmit={(e) => e.preventDefault()}>
+                    <div className="flex flex-col md:flex-row gap-4 ">
                         <input
                             type="text"
                             placeholder="Name"
-                            className="input w-full"
+                            className="input w-full bg-white text-[#3C3E41]"
                             name="name"
                             required
                             pattern="[A-Za-z\s]+"
@@ -21,7 +21,7 @@ const ContactForm = () => {
                         <input
                             type="email"
                             placeholder="Email"
-                            className="input w-full"
+                            className="input w-full bg-white text-[#3C3E41]"
                             name="email"
                             required
                         />
@@ -30,7 +30,7 @@ const ContactForm = () => {
                         <input
                             type="tel"
                             placeholder="Phone"
-                            className="input w-full"
+                            className="input w-full bg-white text-[#3C3E41]"
                             name="phone"
                             required
                             pattern="[0-9]{7,15}"
@@ -39,21 +39,21 @@ const ContactForm = () => {
                         <input
                             type="text"
                             placeholder="Subject"
-                            className="input w-full"
+                            className="input w-full bg-white text-[#3C3E41]"
                             name="subject"
                             required
                         />
                     </div>
                     <div>
                         <textarea
-                            className="textarea w-full"
+                            className="textarea w-full bg-white text-[#3C3E41]"
                             rows="5"
                             placeholder="Message"
                             name="message"
                             required
                         ></textarea>
                     </div>
-                    <div className="w-full">
+                    <div className="w-full ">
                         <button
                             type="submit"
                             className="w-full text-[#fc2164] bg-gradient-to-r from-[#e3e9ed] to-[#fcfcfd] py-3 rounded-lg shadow-md font-poppins font-semibold hover:transition hover:scale-105">

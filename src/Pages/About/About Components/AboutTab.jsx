@@ -7,14 +7,14 @@ const AboutTab = () => {
         <div className='w-11/12 md:w-10/12 lg:w-8/12 mx-auto py-16'>
             {/* Tabs Section */}
             <div className=" mt-10">
-                <div className="flex space-x-4 justify-center pb-8">
+                <div className="flex space-x-4 justify-center pb-8 ">
                     {["experience", "skills", "education"].map((tab) => (
                         <button
                             key={tab}
                             onClick={() => setActiveTab(tab)}
                             className={`capitalize py-5 px-8 font-bold text-xl rounded-lg w-11/12 md:w-10/12 lg:w-8/12 mx-auto gap-2 ${activeTab === tab
                                 ? " bg-gradient-to-r from-[#e3e9ed] to-[#fcfcfd]  text-[#fc2164] shadow-xl"
-                                : " bg-gradient-to-r from-[#e3e9ed] to-[#fcfcfd] text-gray-500 hover:text-[#fc2164] shadow-lg hover:transition hover:scale-105"
+                                : " bg-gradient-to-r from-[#e3e9ed] to-[#fcfcfd] text-[#3C3E41] hover:text-[#fc2164] shadow-lg hover:transition hover:scale-105"
                                 }`}
                         >
                             {tab}
@@ -85,7 +85,7 @@ const AboutTab = () => {
                                         { name: 'DESIGN', percent: 90 },
                                     ].map((skill, idx) => (
                                         <div key={idx} className="py-2">
-                                            <div className="flex justify-between">
+                                            <div className="flex justify-between text-[#3C3E41]">
                                                 <p>{skill.name}</p>
                                                 <p>{skill.percent}%</p>
                                             </div>
@@ -112,7 +112,7 @@ const AboutTab = () => {
                                         { name: 'WORDPRESS', percent: 90 },
                                     ].map((skill, idx) => (
                                         <div key={idx} className="py-2">
-                                            <div className="flex justify-between">
+                                            <div className="flex justify-between text-[#3C3E41]">
                                                 <p>{skill.name}</p>
                                                 <p>{skill.percent}%</p>
                                             </div>
@@ -172,7 +172,7 @@ const AboutTab = () => {
                                                     />
                                                 </svg>
                                             </div>
-                                            <div className="timeline-end timeline-box border bg-gradient-to-r from-[#e3e9ed] to-[#fcfcfd]  hover:transition hover:scale-105 p-4 rounded-lg mb-10  px-12 py-6 shadow-xl">
+                                            <div className="timeline-end timeline-box border-none bg-gradient-to-r from-[#e3e9ed] to-[#fcfcfd] hover:transition hover:scale-105 p-4 rounded-lg mb-10 px-12 py-6 shadow-xl hover:border-none">
                                                 <div>
                                                     <div className="text-2xl lg:text-3xl font-bold text-[#3C3E41]">{item.title}</div>
                                                     <p className="font-poppins text-[#707376]  text-justify pt-6 text-[16px]">{item.description}</p>

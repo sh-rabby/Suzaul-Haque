@@ -14,7 +14,7 @@ const Fearures = () => {
                     <h3 className="text-[#fc2164] font-medium ">FEARURES</h3>
                     <h1 className="text-4xl lg:text-5xl font-bold text-[#3C3E41] py-6">What I Do</h1>
                 </div>
-                <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-12 py-10 pb-20 border-b  border-gray-200 ">
+                <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-12 py-10 pb-20 border-b  border-gray-200 text-[#3C3E41]">
                     <div
                         className="bg-gradient-to-r from-[#e3e9ed] to-[#fcfcfd] rounded-xl shadow-lg py-12 px-8  hover:transition hover:scale-105">
                         <FaCode className="fa-solid fa-code text-[#fc2164] text-4xl" />

@@ -24,7 +24,7 @@ const NavBar = () => {
                 </div>
                 <ul
                   tabIndex={0}
-                  className="menu menu-sm dropdown-content bg-gradient-to-r from-[#e3e9ed]  to-[#fcfcfd] mt-8 w-75 h-screen px-6  md:px-10 py-6 -ml-18 md:-ml-32 shadow-md gap-2 ">
+                  className="menu menu-sm dropdown-content bg-gradient-to-r from-[#e3e9ed]  to-[#fcfcfd]  text-[#3C3E41] mt-8 w-75 h-screen px-6  md:px-10 py-6 -ml-18 md:-ml-32 shadow-md gap-2 ">
                   <Link className='border-b-1 py-2 border-gray-300 hover:text-[#fc2164]' to="/">Home</Link>
                   <Link className='border-b-1 py-2 border-gray-300  hover:text-[#fc2164]' to="/about">About</Link>
                   <Link className='border-b-1 py-2 border-gray-300  hover:text-[#fc2164]' to="/projects">Projects</Link>
@@ -67,7 +67,7 @@ const NavBar = () => {
                 <Link to="/"><img src="/logo.png" alt="Logo" className="w-32 " /></Link>
               </div>
             </div>
-            <div className="navbar-center hidden lg:flex gap-6">
+            <div className="navbar-center hidden lg:flex gap-6 text-[#3C3E41]">
               <Link className='hover:text-[#fc2164]' to="/">Home</Link>
               <Link className='hover:text-[#fc2164]' to="/about">About</Link>
               <Link className='hover:text-[#fc2164]' to="/projects">Projects</Link>

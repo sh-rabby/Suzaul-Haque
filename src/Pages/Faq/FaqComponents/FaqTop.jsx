@@ -6,7 +6,7 @@ const FaqTop = () => {
             <div className='shadow-xl'>
                 <div className="collapse collapse-arrow bg-gradient-to-r from-[#e3e9ed] via-[#fcfcfd] to-[#e3e9ed] border-b border-gray-300">
                     <input type="radio" name="my-accordion-2" defaultChecked className="peer" />
-                    <div className="collapse-title font-semibold peer-checked:text-[#fc2164]">
+                    <div className="collapse-title font-semibold peer-checked:text-[#fc2164] text-[#3C3E41]">
                         What services do you offer as a web developer?
                     </div>
                     <div className="collapse-content text-sm font-poppins text-[#707376]">
@@ -16,7 +16,7 @@ const FaqTop = () => {
 
                 <div className="collapse collapse-arrow bg-gradient-to-r from-[#e3e9ed] via-[#fcfcfd] to-[#e3e9ed]  border-b border-gray-300">
                     <input type="radio" name="my-accordion-2" className="peer" />
-                    <div className="collapse-title font-semibold peer-checked:text-[#fc2164]">
+                    <div className="collapse-title font-semibold peer-checked:text-[#fc2164] text-[#3C3E41]">
                         How long does it take to complete a web project?
                     </div>
                     <div className="collapse-content text-sm font-poppins text-[#707376]">
@@ -25,7 +25,7 @@ const FaqTop = () => {
                 </div>
                 <div className="collapse collapse-arrow bg-gradient-to-r from-[#e3e9ed] via-[#fcfcfd] to-[#e3e9ed] border-b border-gray-300">
                     <input type="radio" name="my-accordion-2" className="peer" />
-                    <div className="collapse-title font-semibold peer-checked:text-[#fc2164]">
+                    <div className="collapse-title font-semibold peer-checked:text-[#fc2164] text-[#3C3E41]">
                         Do you offer ongoing website maintenance?
                     </div>
                     <div className="collapse-content text-sm font-poppins text-[#707376]">
@@ -34,7 +34,7 @@ const FaqTop = () => {
                 </div>
                 <div className="collapse collapse-arrow bg-gradient-to-r from-[#e3e9ed] via-[#fcfcfd] to-[#e3e9ed]  border-b border-gray-300">
                     <input type="radio" name="my-accordion-2" className="peer" />
-                    <div className="collapse-title font-semibold peer-checked:text-[#fc2164]">
+                    <div className="collapse-title font-semibold peer-checked:text-[#fc2164] text-[#3C3E41]">
                         Can you redesign my existing website?
                     </div>
                     <div className="collapse-content text-sm font-poppins text-[#707376]">
@@ -43,7 +43,7 @@ const FaqTop = () => {
                 </div>
                 <div className="collapse collapse-arrow bg-gradient-to-r from-[#e3e9ed] via-[#fcfcfd] to-[#e3e9ed]  border-b border-gray-300">
                     <input type="radio" name="my-accordion-2" className="peer" />
-                    <div className="collapse-title font-semibold peer-checked:text-[#fc2164]">
+                    <div className="collapse-title font-semibold peer-checked:text-[#fc2164] text-[#3C3E41]">
                         What technologies do you use for web development?
                     </div>
                     <div className="collapse-content text-sm font-poppins text-[#707376]">
@@ -52,7 +52,7 @@ const FaqTop = () => {
                 </div>
                 <div className="collapse collapse-arrow bg-gradient-to-r from-[#e3e9ed] via-[#fcfcfd] to-[#e3e9ed]  border-b border-gray-300">
                     <input type="radio" name="my-accordion-2" className="peer" />
-                    <div className="collapse-title font-semibold peer-checked:text-[#fc2164]">
+                    <div className="collapse-title font-semibold peer-checked:text-[#fc2164] text-[#3C3E41]">
                         How much does a website cost?
                     </div>
                     <div className="collapse-content text-sm font-poppins text-[#707376]">

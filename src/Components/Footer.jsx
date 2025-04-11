@@ -22,8 +22,7 @@ const Footer = () => {
                 <Link to="/"><img src="/logo.png" alt="Logo" className="w-32 " /></Link>
               </div>
               <p className="text-gray-500">
-                I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I’m not adding motion just to spruce things up, but doing it in ways that.
-              </p>
+                I specialize in crafting modern, responsive websites that bring ideas to life. From sleek designs to functional development, I turn your vision into a powerful online presence. </p>
             </div>
 
             <div className="w-full md:w-50">

@@ -17,7 +17,7 @@ const Hero = () => {
                     <div className="">
                         <p className="font-poppins text-[16px] py-4 uppercase text-[#3c3e41]">Welcome To Web Design and Development
                             World</p>
-                        <h1 className="text-4xl lg:text-5xl font-bold leading-relaxed lg:leading-relaxed">Hi, I'm <span
+                        <h1 className="text-4xl lg:text-5xl font-bold leading-relaxed lg:leading-relaxed text-[#3C3E41]">Hi, I'm <span
                             className="text-[#fc2164]">Suzaul Haque</span> <span className="text-[#fc2164]"> a</span> Web
                             Developer</h1>
                         <p className="font-poppinslg:w-9/12 py-6 text-[#707376]">

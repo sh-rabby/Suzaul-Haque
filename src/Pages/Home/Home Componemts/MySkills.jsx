@@ -25,7 +25,7 @@ const MySkills = () => {
                         { name: 'DESIGN', percent: 90 },
                     ].map((skill, idx) => (
                         <div key={idx} className="py-2">
-                            <div className="flex justify-between">
+                            <div className="flex justify-between text-[#3C3E41]">
                                 <p>{skill.name}</p>
                                 <p>{skill.percent}%</p>
                             </div>
@@ -52,7 +52,7 @@ const MySkills = () => {
                         { name: 'WORDPRESS', percent: 90 },
                     ].map((skill, idx) => (
                         <div key={idx} className="py-2">
-                            <div className="flex justify-between">
+                            <div className="flex justify-between text-[#3C3E41]">
                                 <p>{skill.name}</p>
                                 <p>{skill.percent}%</p>
                             </div>
