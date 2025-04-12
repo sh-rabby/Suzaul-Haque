@@ -9,7 +9,3 @@
 .font-poppins {
     font-family: "Poppins", sans-serif;
 }
-
-.timeline::before {
-    background-color: #fc2164 !important;
-}

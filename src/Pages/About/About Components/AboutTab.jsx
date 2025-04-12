@@ -6,15 +6,15 @@ const AboutTab = () => {
     return (
         <div className='w-11/12 md:w-10/12 lg:w-8/12 mx-auto py-16'>
             {/* Tabs Section */}
-            <div className=" mt-10">
-                <div className="flex space-x-4 justify-center pb-8 ">
+            <div className=" md:mt-10 sm:mt-0">
+                <div className="flex flex-col space-y-4 md:flex-row md:space-x-4 md:space-y-0 justify-center pb-8">
                     {["experience", "skills", "education"].map((tab) => (
                         <button
                             key={tab}
                             onClick={() => setActiveTab(tab)}
                             className={`capitalize py-5 px-8 font-bold text-xl rounded-lg w-11/12 md:w-10/12 lg:w-8/12 mx-auto gap-2 ${activeTab === tab
-                                ? " bg-gradient-to-r from-[#e3e9ed] to-[#fcfcfd]  text-[#fc2164] shadow-xl"
-                                : " bg-gradient-to-r from-[#e3e9ed] to-[#fcfcfd] text-[#3C3E41] hover:text-[#fc2164] shadow-lg hover:transition hover:scale-105"
+                                    ? "bg-gradient-to-r from-[#e3e9ed] to-[#fcfcfd] text-[#fc2164] shadow-xl"
+                                    : "bg-gradient-to-r from-[#e3e9ed] to-[#fcfcfd] text-[#3C3E41] hover:text-[#fc2164] shadow-lg hover:transition hover:scale-105"
                                 }`}
                         >
                             {tab}
@@ -45,7 +45,7 @@ const AboutTab = () => {
                                         }
                                     ].map((item, idx) => (
                                         <li key={idx}>
-                                            {idx !== 0 && <hr />}
+                                            
                                             <div className="timeline-middle text-[#fc2164]">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
                                                     fill="currentColor" className="h-5 w-5">
@@ -156,7 +156,7 @@ const AboutTab = () => {
 
                                     ].map((item, idx) => (
                                         <li key={idx}>
-                                            {idx !== 0 && <hr className="!border-[#fc2164]" />}
+                                            
                                             <div className="timeline-start text-[#fc2164] ">{item.year}</div>
                                             <div className="timeline-middle text-[#fc2164]">
                                                 <svg

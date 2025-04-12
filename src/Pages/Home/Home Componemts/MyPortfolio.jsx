@@ -58,7 +58,7 @@ const MyPortfolio = () => {
                             <div className="flex justify-between py-5">
                                 <p className="text-[#fc2164] font-medium font-poppins text-sm ">News Website</p>
                             </div>
-                            <h1 className="py-0text-[#3C3E41] text-xl font-bold">The services provide for a news company  </h1>
+                            <h1 className="py-0 text-[#3C3E41] text-xl font-bold">The services provide for a news company  </h1>
                         </div>
                     </div>
                     <div className='flex justify-center  border-b border-gray-200   pb-20 '>
