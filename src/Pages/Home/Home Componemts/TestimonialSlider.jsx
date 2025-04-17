@@ -19,7 +19,7 @@ const testimonials = [
         name: "Sheikh Sakibul Hasan",
         image: "/Sheikh Sakibul Hasan.jpg",
         role: "Founder, LocalCart BD",
-        message: "Suzaul truly understood our vision and brought it to life. The site works flawlessly across devices and has boosted our online presence. He’s professional, creative, and always quick to respond. Vry happy to work with.",
+        message: "Suzaul truly understood our vision and brought it to life. The site works flawlessly across devices and has boosted our online presence. He’s professional, creative, and always quick to respond. Very happy to work with.",
         project: "E-commerce Store Development",
         year: "January 2025",
         location: "Bangladesh, Dhaka",
@@ -55,7 +55,7 @@ const TestimonialSlider = () => {
                 <h1 className="text-4xl lg:text-5xl font-bold text-[#3C3E41] py-6">What Clients Say</h1>
             </div>
 
-            <div className="pb-16 rounded-2xl bg-[#e3e9ed] shadow-xl">
+            <div className="pb-16 rounded-2xl bg-gray-200 shadow-xl">
                 <Slider {...settings}>
                     {testimonials.map((item, index) => (
                         <div key={index}>
