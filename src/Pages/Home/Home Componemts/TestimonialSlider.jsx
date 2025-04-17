@@ -19,7 +19,7 @@ const testimonials = [
         name: "Sheikh Sakibul Hasan",
         image: "/Sheikh Sakibul Hasan.jpg",
         role: "Founder, LocalCart BD",
-        message: "Suzaul truly understood our vision and brought it to life. The site works flawlessly across devices and has boosted our online presence. He’s professional, creative, and always quick to respond.",
+        message: "Suzaul truly understood our vision and brought it to life. The site works flawlessly across devices and has boosted our online presence. He’s professional, creative, and always quick to respond. Vry happy to work with.",
         project: "E-commerce Store Development",
         year: "January 2025",
         location: "Bangladesh, Dhaka",
@@ -28,7 +28,7 @@ const testimonials = [
         name: "Clara Müller",
         image: "/Clara Müller.jpg",
         role: "Creative Director, StudioLoom",
-        message: "Suzaul has an eye for detail and a great sense of design. He turned our ideas into a beautiful, functional site that our clients love. I highly recommend him for any web-related project.",
+        message: "Suzaul has an eye for detail and a great sense of design. He turned our ideas into a beautiful, functional site that our clients love. I highly recommend him for any web-related project. Perfect working partner",
         project: "Portfolio Website Design",
         year: "December 2024",
         location: "Germany, Berlin",
@@ -49,9 +49,9 @@ const TestimonialSlider = () => {
     };
 
     return (
-        <div className="w-11/12 md:w-10/12 lg:w-8/12 mx-auto py-6 pb-16">
-            <div className="text-center py-6">
-                <p className="text-[#fc2164] font-medium pt-16">TESTIMONIAL</p>
+        <div className="w-11/12 py-6 pb-16 mx-auto md:w-10/12 lg:w-8/12">
+            <div className="py-6 text-center">
+                <p className="pt-16 font-bold text-blue-600">TESTIMONIAL</p>
                 <h1 className="text-4xl lg:text-5xl font-bold text-[#3C3E41] py-6">What Clients Say</h1>
             </div>
 
@@ -59,28 +59,27 @@ const TestimonialSlider = () => {
                 <Slider {...settings}>
                     {testimonials.map((item, index) => (
                         <div key={index}>
-                            <div className="p-8 rounded-2xl flex flex-col items-center ">
-                                <div className="flex flex-col lg:flex-row justify-between items-center gap-6 w-full">
-                                    {/* Left Box: Image and Name (4/12 width) */}
+                            <div className="flex flex-col items-center p-8 rounded-2xl ">
+                                <div className="flex flex-col items-center justify-between w-full gap-6 lg:flex-row">
+                                    {/* Left Box: Image and Name  */}
                                     <div className="bg-gradient-to-r from-[#e3e9ed] via-[#fcfcfd] to-[#e3e9ed] p-6 rounded-lg shadow-xl lg:w-4/12 w-full mb-6 lg:mb-0">
                                         {/* Centered Image */}
-                                        <img className="w-fit rounded-xl object-cover mb-6 mx-auto" src={item.image} alt={item.name} />
+                                        <img className="object-cover mx-auto mb-6 w-fit rounded-xl" src={item.image} alt={item.name} />
 
                                         {/* Centered Name and Role */}
                                         <div className="text-[#3C3E41] text-center">
-                                            <h4 className="font-semibold text-lg">{item.name}</h4>
+                                            <h4 className="text-lg font-semibold">{item.name}</h4>
                                             <span className="text-lg">{item.role}</span>
                                         </div>
                                     </div>
 
-                                    {/* Right Box: Project/Message (8/12 width) */}
-                                    <div className="bg-gradient-to-r from-[#e3e9ed] via-[#fcfcfd] to-[#e3e9ed] p-8 rounded-lg shadow-xl lg:w-8/12 h-96 items-center">
-                                        {/* Centered Project/Year */}
+                                    {/* Right Box: Project/Message */}
+                                    <div className="bg-gradient-to-r from-[#e3e9ed] via-[#fcfcfd] to-[#e3e9ed] p-8 rounded-lg shadow-xl lg:w-8/12 lg:h-96 items-center">
                                         <h1 className="text-2xl font-bold text-[#3C3E41] text-start">{item.project}</h1>
                                         <h1 className="text-lg py-2 text-[#3C3E41] text-start">{item.location}</h1>
-                                        <h1 className="text-md  text-start text-[#fc2164] ">{item.year}</h1>
-                                        <p className="text-md text-[#707376] pt-6 text-start ">“{item.message}”</p>
-                                        <div className="flex justify-start gap-2 pt-6 text-2xl text-[#fc2164]">
+                                        <h1 className="text-blue-600 text-md text-start ">{item.year}</h1>
+                                        <p className="text-md text-[#707376] pt-6  text-justify ">“{item.message}”</p>
+                                        <div className="flex justify-start gap-2 pt-6 text-2xl text-blue-600">
                                             <FaStar />
                                             <FaStar />
                                             <FaStar />

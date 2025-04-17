@@ -11,7 +11,6 @@ import Root from '../Root.jsx';
 import Home from './Pages/Home/Home.jsx';
 import About from './Pages/About/About.jsx';
 import Contact from './Pages/Contact/Contact.jsx';
-import Portfolio from './Pages/Portfolio/Portfolio.jsx';
 import Projects from './Pages/Projects/Projects.jsx';
 import Faq from './Pages/Faq/Faq.jsx';
 
@@ -37,10 +36,6 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact></Contact>,
-      },
-      {
-        path: "/portfolio",
-        element: <Portfolio></Portfolio>,
       },
       {
         path: "/projects",

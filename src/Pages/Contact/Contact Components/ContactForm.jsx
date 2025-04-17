@@ -2,13 +2,13 @@ import React from 'react';
 
 const ContactForm = () => {
     return (
-        <div className='bg-gray-100 rounded-xl shadow-xl py-12 px-8'>
+        <div className='px-8 py-12 bg-gradient-to-r from-[#e3e9ed] via-[#fcfcfd] to-[#e3e9ed]  shadow-xl rounded-xl'>
             <div>
-                <h1 className='font-poppins text-[#707376] text-md'>If you have any porject or need help. <span className='text-[#fc2164]'>Just Say Hello!</span> </h1>
+                <h1 className='font-poppins text-[#707376] text-md'>If you have any porject or need help. <span className='font-semibold text-blue-600'>Just Say Hello!</span> </h1>
             </div>
             <div>
                 <form className="py-6 space-y-4 " onSubmit={(e) => e.preventDefault()}>
-                    <div className="flex flex-col md:flex-row gap-4 ">
+                    <div className="flex flex-col gap-4 md:flex-row ">
                         <input
                             type="text"
                             placeholder="Name"
@@ -26,7 +26,7 @@ const ContactForm = () => {
                             required
                         />
                     </div>
-                    <div className="flex flex-col md:flex-row gap-4">
+                    <div className="flex flex-col gap-4 md:flex-row">
                         <input
                             type="tel"
                             placeholder="Phone"
@@ -56,7 +56,7 @@ const ContactForm = () => {
                     <div className="w-full ">
                         <button
                             type="submit"
-                            className="w-full text-[#fc2164] bg-gradient-to-r from-[#e3e9ed] to-[#fcfcfd] py-3 rounded-lg shadow-md font-poppins font-semibold hover:transition hover:scale-105">
+                            className="w-full py-3 font-semibold text-white bg-blue-600 border-none rounded-lg shadow-md t font-poppins hover:transition hover:scale-105">
                             Send Message
                         </button>
                     </div>
