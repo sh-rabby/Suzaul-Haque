@@ -12,10 +12,10 @@ const portfolioItems = [
     },
     {
         id: 2,
-        image: "/udvash-edu.png",
-        category: "LMS Website",
-        description: "The services provide for a learning platform.",
-        liveLink: "https://udvash-edu.netlify.app/",
+        image: "/liza-car.png",
+        category: "E-commerce Website",
+        description: "The services provide for a car shop.",
+        liveLink: "https://lizacar.netlify.app/",
     },
     {
         id: 3,
@@ -23,6 +23,13 @@ const portfolioItems = [
         category: "E-commerce Website",
         description: "The services provide for an E-commerce shop.",
         liveLink: "https://grabit-shop.netlify.app/",
+    },
+    {
+        id: 4,
+        image: "/udvash-edu.png",
+        category: "LMS Website",
+        description: "The services provide for a learning platform.",
+        liveLink: "https://udvash-edu.netlify.app/",
     },
 ];
 

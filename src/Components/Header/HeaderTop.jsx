@@ -1,12 +1,11 @@
 import React from 'react';
-import { FaHome } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import { ImClock } from "react-icons/im";
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { RiLinkedinFill } from "react-icons/ri";
 import { Link } from "react-router-dom";
+import { FaPhone } from "react-icons/fa6";
 
 
 
@@ -18,7 +17,7 @@ const HeaderTop = () => {
                     <div className='flex items-center justify-between py-2'>
                         <Link to="tel:+8801685981149">
                             <div className='flex items-center gap-3 font-semibold text-white text-sm'>
-                                <FaHome />
+                                <FaPhone />
                                 <p>+880 1685 981149</p>
                             </div>
                         </Link>
