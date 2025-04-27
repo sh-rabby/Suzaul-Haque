@@ -19,13 +19,20 @@ const portfolioItems = [
     },
     {
         id: 3,
+        image: "/dental-care.png",
+        category: "Dental Website",
+        description: "The services provide for a dental Clinic.",
+        liveLink: "https://dentalcare-bd.netlify.app/",
+    },
+    {
+        id: 4,
         image: "/grabit-shop.png",
         category: "E-commerce Website",
         description: "The services provide for an E-commerce shop.",
         liveLink: "https://grabit-shop.netlify.app/",
     },
     {
-        id: 4,
+        id: 5,
         image: "/udvash-edu.png",
         category: "LMS Website",
         description: "The services provide for a learning platform.",
